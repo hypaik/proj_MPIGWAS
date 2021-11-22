@@ -1,13 +1,13 @@
 # proj_MPIGWAS
 Supercomputing aided permutation approach for genome-wide association study
 
-Hyojung Paik1,2,¶, Yongseong Cho1,¶, and Oh-Kyung. Kwon1,*
+Hyojung Paik1,2,¶, Yongseong Cho1,¶, and Oh-Kyung. Kwon1,&
 
 1 Division of Supercomputing, Center for supercomputing application and research, Korea Institute of Science and Technology Information (KISTI), Daejeon 34141, South Korea
 2 Department of Data and HPC science, University of Science and Technology (UST), Daejeon, 34141, South Korea
 
 ¶ These authors are equally contributed for this work. 
-* Correspondence should be addressed to okkwan@kisti.re.kr
+& Correspondence should be addressed to okkwan@kisti.re.kr
 
 Authors of souce code: Yongseong Cho (frodoys@gmail.com), Hyojung Paik (hyojungpaik@gmail.com)
 
