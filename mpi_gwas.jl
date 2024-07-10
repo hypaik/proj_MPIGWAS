@@ -74,7 +74,7 @@ end
 
 function master()
   if ! isdir(dir)
-    quit("No such directory: ", dir)
+    quit("No such directory: "+ dir)
   end
 
   exms = filter(x -> endswith(x, r"\.RData|.rdata|.rda"), readdir(dir, join=true))
