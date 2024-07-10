@@ -19,7 +19,7 @@ Our application, called MPI-GWAS, consists of input data generation from the PLI
 MPI-GWAS enables us to feasibly compute the permutation based GWAS within reasonable period to harness the power of supercomputing resources. 
 
 **#<Usage of code>**
-1. Data preparation
+1. Data preparation 1st step
    - If your input files are from PLINK: *.tped, *.tfam
     Open_DataSetMakeFromPLINK.R (you will need to change the file name inside of the code)
      MyworkDir: working directory
@@ -29,7 +29,7 @@ MPI-GWAS enables us to feasibly compute the permutation based GWAS within reason
     Open_DataSetMakeFromPLINK_recodeAraw.R (you will need to change the file name inside of the code)
      raw: .raw file name
    - results of data preprocessing code -->  Allgx.dat.RData will generated
-2. Data preparation
+2. Data preparation 2nd step
    - Open_DataSetMake_forRData_fromPLINKreshape.R --> re-shaping & splitting RData by each locus
      --> You will need to set the job directory inside of the code: setwd(“Your_working_directory”)
    - Open_DataSetMake_forRData_fromPLINKreshape.R--> will generate *.RData per each locus
